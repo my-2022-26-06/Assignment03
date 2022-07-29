@@ -10,7 +10,7 @@ body {
 }
 #digital-cv {
 	display: grid;
-	grid-template-columns: 2fr 1fr 1fr;
+	grid-template-columns: 50% 25% 25%;
 	gap: 10px;
 	padding: 10px;
 	margin: 50px;
@@ -48,6 +48,7 @@ body {
 }
 .text {
 	margin-bottom: 50px;
+	padding: 10px;
 }
 /* GOALS */
 .goal-text {
@@ -146,7 +147,7 @@ body {
 @media (max-width: 768px) {
 	#digital-cv {
 		display: grid;
-		grid-template-columns: 1fr;
+		grid-template-columns: 100%;
 		grid-template-rows: auto auto auto auto auto;
 		gap: 0;
 		padding: 20px;

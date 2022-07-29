@@ -9,7 +9,7 @@
 		/* font-family: sans-serif; */
 		font-family: "Taviraj", serif;
 		font-size: 14px;
-		line-height: 1.6;
+		line-height: 1.5;
 	}
 	img {
 		box-shadow: 0 2px 12px 8px #dee2e6;
@@ -51,14 +51,14 @@
 	.banner-text h1 {
 		text-align: center;
 		margin-bottom: 20px;
-		font-size: 36px;
+		font-size: 200%;
 		font-weight: 700;
 		text-shadow: 4px 8px 18px #99e9f2;
 	}
 
 	.banner-text span {
 		text-align: center;
-		font-size: 24px;
+		font-size: 175%;
 		text-shadow: 4px 8px 18px #99e9f2;
 	}
 	/* _______________________________________________________________ */
@@ -77,16 +77,17 @@
 	.nav-bar--link {
 		display: inline-block;
 		text-align: center;
-		padding: 35px 20px;
+		padding: 10px 20px;
 		border-left: 1px solid #e9ecef;
 		text-transform: uppercase;
 		cursor: pointer;
 	}
-	.nav-bar--link:last-child {
+	.nav-bar:last-child {
 		border-right: 1px solid #e9ecef;
 	}
 	.nav-bar--link a {
 		text-decoration: none;
+		border: none;
 		color: rgb(40, 40, 39);
 	}
 	.nav-bar--link i {
@@ -159,8 +160,8 @@
 	.job-info {
 		margin: 0 10px;
 		display: grid;
-		grid-template-columns: 1fr 1fr;
-		gap: 50px;
+		grid-template-columns: 50% 50%;
+		gap: 20px;
 		justify-content: center;
 	}
 
@@ -284,7 +285,7 @@
 	}
 
 	.certificate-title {
-		padding: 20px;
+		padding-top: 20px;
 	}
 
 	.certificate img {
@@ -324,7 +325,7 @@
 
 	/* XÂY DỰNG PHẦN DỰ ÁN */
 	#project {
-		margin: 20px 0;
+		margin: 20px;
 	}
 	.project {
 		padding: 0 20px;
@@ -338,14 +339,15 @@
 	}
 	.project-text {
 		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-columns: 33% 33% 33%;
 		gap: 20px;
 		padding: 0 20px;
+		margin: 0 20px 0 0;
 	}
 	.project1,
 	.project2,
 	.project3 {
-		/* height: 100%; */
+		height: 100%;
 		border: 1px solid #a6b1b6;
 	}
 	.project-name {
